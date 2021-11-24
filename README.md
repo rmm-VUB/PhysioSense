@@ -10,8 +10,9 @@ The library allows to combine a set of sensors for the analysis of the human sta
 ## Installation
 
 
-
 ## Description
+
+## Publication
 
 
 
