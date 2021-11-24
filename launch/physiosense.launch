@@ -1,0 +1,3 @@
+<launch>
+  <node name="physiosense" pkg="PhysioSense" type="physiosense.py" output="screen" required="true"> </node>
+</launch>
