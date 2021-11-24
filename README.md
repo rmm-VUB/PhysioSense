@@ -9,7 +9,7 @@ The library allows to combine a set of sensors for the analysis of the human sta
 
 ## Installation
 
-This software is built on the Robotics Operating System [ROS] (http://wiki.ros.org/ROS/Installation "ROS").
+This software is built on the Robotics Operating System [ROS](http://wiki.ros.org/ROS/Installation).
 
 ## Description
 
