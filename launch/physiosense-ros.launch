@@ -1,3 +1,4 @@
 <launch>
-  <node name="physiosense" pkg="PhysioSense" type="physiosense.py" output="screen" required="true"> </node>
+  <node name="physiosense" pkg="physiosense-ros" type="physiosense_ros.py" output="screen" required="true"> </node>
+  <node name="xsens_node" pkg="xsens_mtw_driver" type="mt_w_manager" output="screen" required="true"> </node>
 </launch>
