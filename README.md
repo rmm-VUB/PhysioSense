@@ -27,11 +27,23 @@ cd ..
 catkin_make
 ```
 
+## Running instruction
+
+To launch the launch file physiosense-ros node, run the following command.
+
+```
+cd ~/catkin_ws/
+source devel/setup.bash
+roslaunch physiosense-ros physiosense-ros.launch
+```
+
 ## Description
 
 ### Vicon
 
 The Vicon package is publishing data about the position of markers in 3D space tracked by the motion capture system. Other datas include measurements of devices connected to the Vicon lock, namely the [Cometa EMG](https://www.cometasystems.com/products/mini-wave-infinity) and the [Kistler plate 9260AA](https://www.kistler.com/en/product/type-9260aa/).
+
+[Vicon installation instructions](/vicon/motion_capture/README.md)
 
 ### Xsens
 
