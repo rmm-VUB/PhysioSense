@@ -15,6 +15,11 @@ This software is built on the Robotics Operating System [ROS](http://wiki.ros.or
 
 ### Vicon
 
+The Vicon package is publishing data about the position of markers in 3D space tracked by the motion capture system. Other datas include measurements of devices connected to the Vicon lock, namely the [Cometa EMG](https://www.cometasystems.com/) and the [Kistler plate 9260AA](https://www.kistler.com/en/product/type-9260aa/).
+
+### Xsens
+
+### Kistler
 
 ## Publication
 
