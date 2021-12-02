@@ -20,7 +20,11 @@ This software is built on the Robotics Operating System [ROS](http://wiki.ros.or
 
 ```
 source /opt/ros/melodic/setup.bash
-
+mkdir -p ~/catkin_ws/src
+cd ~/catkin_ws/src/
+git clone https://github.com/rmm-VUB/physiosense-ros.git
+cd ..
+catkin_make
 ```
 
 ## Description
