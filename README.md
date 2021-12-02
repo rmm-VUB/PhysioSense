@@ -13,7 +13,7 @@ This software is built on the Robotics Operating System [ROS](http://wiki.ros.or
 
 1. To install ROS-Melodic follow the steps mentioned in the official website
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[http://wiki.ros.org/melodic/Installation/Ubuntu](http://wiki.ros.org/melodic/Installation/Ubuntu)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[http://wiki.ros.org/melodic/Installation/Ubuntu](http://wiki.ros.org/melodic/Installation/Ubuntu)
 
 
 ## Description
