@@ -11,6 +11,11 @@ The library allows to combine a set of sensors for the analysis of the human sta
 
 This software is built on the Robotics Operating System [ROS](http://wiki.ros.org/ROS/Installation).
 
+1. To install ROS-Melodic follow the steps mentioned in the official website
+
+[http://wiki.ros.org/melodic/Installation/Ubuntu](http://wiki.ros.org/melodic/Installation/Ubuntu)
+
+
 ## Description
 
 ### Vicon
