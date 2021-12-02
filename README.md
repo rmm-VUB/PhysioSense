@@ -23,7 +23,7 @@ The Xsens package publishes the output of the [MTw Awinda sensors](https://www.x
 
 ### Kistler
 
-The Kistler package publishes the output of the [Kistler plate 9260AA](https://www.kistler.com/en/product/type-9260aa/)
+The Kistler package publishes the output of the [Kistler plate 9260AA](https://www.kistler.com/en/product/type-9260aa/).
 
 ## Publication
 
