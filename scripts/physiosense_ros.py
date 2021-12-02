@@ -24,6 +24,8 @@ def main():
     #rospy.Subscriber("/task_id_robot", Int32, updateTaskId)
     #pubRobotState = rospy.Publisher('/robot_state', Int32, queue_size = 2, latch=False)
 
+    print "Launching physiosense..."
+
     while rospy.is_shutdown() == False:
         rospy.sleep(0.5)
 

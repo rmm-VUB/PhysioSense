@@ -1,4 +1,21 @@
 <launch>
   <node name="physiosense" pkg="physiosense-ros" type="physiosense_ros.py" output="screen" required="true"> </node>
-  <node name="xsens_node" pkg="xsens_mtw_driver" type="mt_w_manager" output="screen" required="true"> </node>
+
+  <!-- Xsens launch -->
+  <node name="xsens_node" pkg="xsens_mtw_driver" type="mt_w_manager" output="screen" required="false"> </node>
+
+  <!-- Vicon launch -->
+  <node pkg="mocap_vicon"
+    type="mocap_vicon_node"
+    name="vicon"
+    output="screen">
+    <param name="server_address" value="192.168.1.144:801"/>
+    <param name="frame_rate" value="100"/>
+    <param name="max_accel" value="10.0"/>
+    <param name="publish_tf" value="true"/>
+    <param name="fixed_frame_id" value="mocap"/>
+    <rosparam param="model_list">[]</rosparam>
+    <!--remap from="vicon/model_name/odom" to="/model_name/odom"/-->
+  </node>
+
 </launch>

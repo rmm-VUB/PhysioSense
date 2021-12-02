@@ -220,7 +220,7 @@ int main(int argc, char *argv[])
 	    			break;
 	    		}
 	    	}
-	    	if (_kbhit())
+	    	/*if (_kbhit())
 	    	{
 	    		char keypressed = (char)_getch();
 	    		if(keypressed == 'y')
@@ -230,7 +230,8 @@ int main(int argc, char *argv[])
 	    			interruption = true;
 	    			waitForConnections = false;
 	    		}
-	    	}
+	    	}*/
+	    	waitForConnections = false; //line to always activate sensors data streaming (without keyboard hit 'y'), to reactivate keyboard input uncomment block "if(_kbhit()).."
 
 	    }while (waitForConnections && ros::ok());
 
