@@ -12,16 +12,6 @@ For the QUALISYS driver, we use the interface from [Qualisys2Ros](https://github
 
 For the rest of the software, the license is Apache 2.0 wherever not specified.
 
-## Compiling
-This is a catkin package. Make sure the package is on `ROS_PACKAGE_PATH` after cloning the package to your workspace. Drivers for different motion capture system can be independently compiled.
-
-```
-cd your_work_space
-catkin_make --pkg mocap_{sys} --cmake-args -DCMAKE_BUILD_TYPE=Release
-```
-
-This will compile the drivers for `{sys}`
-
 ## Example Usage
 
 **Common Parameters**
@@ -74,10 +64,6 @@ For example,
 
 2. How to calibrate the transformation between the subject frame (centered at the centroid of the markers) and the body frame of a robot?
    This functionality is not provided, since few people use that now. If you really want that, please consider [vicon repo of KumarRobotics](https://github.com/KumarRobotics/vicon) or [vicon_bridge repo of ethz-asl](https://github.com/ethz-asl/vicon_bridge).
-
-## Bug Report
-
-Prefer to open an issue. You can also send an e-mail to sunke.polyu@gmail.com.
 
 ## OSX Support
 

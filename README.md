@@ -55,6 +55,12 @@ source devel/setup.bash
 roslaunch physiosense-ros physiosense-ros.launch
 ```
 
+**Published Topics**
+
+`/{mocap_sys}/{subject_name}/odom` (`nav_msgs/Odometry`)
+
+## Examples
+
 ## Publication
 
 
