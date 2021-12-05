@@ -7,7 +7,7 @@ connection with the Awinda base (USB port). Development based on [Xsens MTw SDK 
 
 - The Xsens Hardware is an MTw Development Kit
 
-![Awinda station and MTw sensors](/img/mtw_awinda.jpeg)
+![Awinda station and MTw sensors](img/mtw_awinda.jpeg)
 
 ### Software
 
