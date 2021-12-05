@@ -19,6 +19,9 @@ The Vicon package is publishing data about the position of markers in 3D space t
 
 The Xsens package publishes the output of the [MTw Awinda sensors](https://www.xsens.com/products/mtw-awinda). 
 
+[Xsens installation instructions](src/xsens/README.md)
+
+
 ### Kistler
 
 The Kistler package publishes the output of the [Kistler plate 9260AA](https://www.kistler.com/en/product/type-9260aa/).
