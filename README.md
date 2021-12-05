@@ -62,11 +62,9 @@ roslaunch physiosense-ros physiosense-ros.launch
 
 **Vicon**
 
-<ul>
-<li>`/vicon/devices` (`mocap_vicon/Devices`)</li>
-<li>`/vicon/unlabeled_markers` (`mocap_vicon/Markers`)</li> 
-<li>`/vicon/labeled_markers` (`mocap_vicon/Markers`)</li>
-</ul>
+- `/vicon/devices` (`mocap_vicon/Devices`) 
+- `/vicon/unlabeled_markers` (`mocap_vicon/Markers`) 
+- `/vicon/labeled_markers` (`mocap_vicon/Markers`) 
 
 ## Publication
 
