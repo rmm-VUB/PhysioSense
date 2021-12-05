@@ -1,4 +1,4 @@
-# Xsens MTw driver for ROS-Kinetic
+# Xsens MTw driver
 
 This project contains a driver on which the Xsens MTw sensors send the data in topics published through a node managing the
 connection with the Awinda base (USB port). Development based on [Xsens MTw SDK 4.6](https://www.xsens.com/mt-software-suite-mtw-awinda/).
@@ -9,11 +9,11 @@ connection with the Awinda base (USB port). Development based on [Xsens MTw SDK 
 
 ### Software
 
-- The driver is developed upon the Xsens SDK 4.6, with ROS Kinetic on Ubuntu 16.04 LTS
+- The driver is developed upon the Xsens SDK 4.6, with ROS Melodic on Ubuntu 18.04
 
 ## Usage
 
-- All dependencies (libraries, headers and sources files) are in this folder structure. The _CMakeList.txt_ file is ready to use, contemplating the mininum XSens SDK required. Clone this repository into your catkin_ws/src and do `catkin_make`. 
+- All dependencies (libraries, headers and sources files) are in this folder structure. The _CMakeList.txt_ file is ready to use, contemplating the mininum XSens SDK required.
 
 - Connect the Awinda Station USB in your computer and run the MTw Driver node: `$ rosrun xsens_mtw_drive mt_w_manager`
 
@@ -58,17 +58,3 @@ $ groups
 $ sudo usermod -G dialout -a $USER
 $ newgrp dialout
 ```
-
-## License
-
-- BSD license
-
-## Contribute
-
-I would like to enhance the driver performance for control porpuse (reduced latency, minimise reading errors ...). 
-If you could contribute, keep in mind these goals:
-
-- [x] Update messages type to `sensor_msgs::Imu` from now on;
-- [ ] Study the mastercallback, mtwcallback and the in-build ROS callbacks. Maybe using the own ROS callbacks we got some advantage;
-- [ ] Calibrate the sensors through in-build SDK methods or through statistical data analyzed from an rosbag;
-- [ ] Use ROS threaded spinning (or something to guarantee parallel readings from multiple MTw);
