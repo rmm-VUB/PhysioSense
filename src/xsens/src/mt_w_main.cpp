@@ -327,7 +327,7 @@ int main(int argc, char *argv[])
 		Although, echoing the /free_acc topic has less latency with higher loop_rate values
 		*/
 
-				ros::Publisher imus_pub = node.advertise<xsens_mtw_driver::Imus>("Imus", 10);
+				ros::Publisher imus_pub = node.advertise<xsens_mtw_driver::Imus>("xsens/imus", 10);
 				/*xsens_mtw_driver::Imus imus_msg;
 
 				ros::Time frame_time = ros::Time::now();

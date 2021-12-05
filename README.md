@@ -66,6 +66,14 @@ roslaunch physiosense-ros physiosense-ros.launch
 - `/vicon/unlabeled_markers` (`mocap_vicon/Markers`) 
 - `/vicon/labeled_markers` (`mocap_vicon/Markers`) 
 
+**Xsens**
+
+- `/xsens/imus` (`xsens_mtw_driver/Imus`)
+
+**Kinect One**
+
+
+
 ## Publication
 
 
