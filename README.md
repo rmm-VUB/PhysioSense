@@ -25,6 +25,18 @@ The Kistler package publishes the output of the [Kistler plate 9260AA](https://w
 
 [Kistler installation instructions](src/kistler/README.md)
 
+### Kinect v1
+
+The Kinect1 package publishes the output of the Kinect XBOX 360 depth camera.
+
+[Kinect v1 installation instructions](src/kinect/src/kinect1/README.md)
+
+### Kinect v2
+
+The Kinect2 package publishes the output of the Kinect One depth camera.
+
+[Kinect v2 installation instructions](src/kinect/src/kinect2/README.md)
+
 ## Installation
 
 This software is built on the Robotics Operating System [ROS](http://wiki.ros.org/ROS/Installation).
@@ -70,7 +82,7 @@ roslaunch physiosense-ros physiosense-ros.launch
 
 - `/xsens/imus` (`xsens_mtw_driver/Imus`)
 
-**Kinect One**
+**Kinect v1**
 
 
 
