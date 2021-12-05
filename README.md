@@ -24,7 +24,7 @@ The Xsens package publishes the output of the [MTw Awinda sensors](https://www.x
 
 ### Kistler
 
-The Kistler package publishes the output of the [Kistler plate 9260AA](https://www.kistler.com/en/product/type-9260aa/).
+The Kistler package publishes the output of the [force plate 9260AA](https://www.kistler.com/en/product/type-9260aa/).
 
 [Kistler installation instructions](src/kistler/README.md)
 
@@ -39,6 +39,10 @@ The Kinect1 package publishes the output of the Kinect XBOX 360 depth camera.
 The Kinect2 package publishes the output of the Kinect One depth camera.
 
 [Kinect v2 installation instructions](src/kinect/src/kinect2/README.md)
+
+### Cometa
+
+The Cometa package publishes the output of the [EMG Mini Wave Infinity sensors](https://www.cometasystems.com/products/mini-wave-infinity)
 
 ## Installation
 
@@ -85,7 +89,13 @@ roslaunch physiosense-ros physiosense-ros.launch
 
 - `/xsens/imus` (`xsens_mtw_driver/Imus`)
 
+**Kistler**
+
 **Kinect v1**
+
+**Kinect v2**
+
+**Cometa**
 
 
 
