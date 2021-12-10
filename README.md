@@ -30,13 +30,13 @@ The Kistler package publishes the output of the [force plate 9260AA](https://www
 
 ### Kinect v1
 
-The Kinect1 package publishes the output of the Kinect XBOX 360 depth camera.
+The Kinect 1 package publishes the output of the Kinect XBOX 360 depth camera.
 
 [Kinect v1 installation instructions](src/kinect/src/kinect1/README.md)
 
 ### Kinect v2
 
-The Kinect2 package publishes the output of the Kinect One depth camera.
+The Kinect 2 package publishes the output of the Kinect One depth camera.
 
 [Kinect v2 installation instructions](src/kinect/src/kinect2/README.md)
 
